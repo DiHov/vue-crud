@@ -51,7 +51,7 @@
                           label-for="form-name-input">
                 <b-form-input id="form-name-input"
                               type="text"
-                              v-model="addEmployeeForm.name"
+                              v-model="addEmployeeForm.employee_name"
                               required
                               placeholder="Enter name">
                 </b-form-input>
@@ -61,7 +61,7 @@
                           label-for="form-salary-input">
                 <b-form-input id="form-salary-input"
                               type="text"
-                              v-model="addEmployeeForm.salary"
+                              v-model="addEmployeeForm.employee_salary"
                               required
                               placeholder="Enter salary">
                 </b-form-input>
@@ -71,7 +71,7 @@
                           label-for="form-age-input">
                 <b-form-input id="form-age-input"
                               type="text"
-                              v-model="addEmployeeForm.age"
+                              v-model="addEmployeeForm.employee_age"
                               required
                               placeholder="Enter age">
                 </b-form-input>
@@ -90,7 +90,7 @@
                         label-for="form-name-edit-input">
             <b-form-input id="form-name-edit-input"
                           type="text"
-                          v-model="editForm.name"
+                          v-model="editForm.employee_name"
                           required
                           placeholder="Enter name">
             </b-form-input>
@@ -100,7 +100,7 @@
                         label-for="form-salary-edit-input">
             <b-form-input id="form-salary-edit-input"
                       type="text"
-                      v-model="editForm.salary"
+                      v-model="editForm.employee_salary"
                       required
                       placeholder="Enter salary">
             </b-form-input>
@@ -110,7 +110,7 @@
                         label-for="form-age-edit-input">
             <b-form-input id="form-age-edit-input"
                       type="text"
-                      v-model="editForm.age"
+                      v-model="editForm.employee_age"
                       required
                       placeholder="Enter age">
             </b-form-input>
